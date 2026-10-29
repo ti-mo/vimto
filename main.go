@@ -15,8 +15,8 @@ import (
 	"strings"
 
 	"github.com/kballard/go-shellquote"
+	"github.com/ti-mo/vimto/internal/guest"
 	"golang.org/x/sys/unix"
-	"lmb.io/vimto/internal/guest"
 )
 
 func main() {

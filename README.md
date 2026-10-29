@@ -33,7 +33,7 @@ See also [Container format](docs/container.md).
 Install using the Go toolchain:
 
 ```shell
-CGO_ENABLED=0 go install lmb.io/vimto@latest
+CGO_ENABLED=0 go install github.com/ti-mo/vimto@latest
 ```
 
 ## Configuration

@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"lmb.io/vimto/internal/guest"
+	"github.com/ti-mo/vimto/internal/guest"
 )
 
 func main() {
