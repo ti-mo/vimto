@@ -169,10 +169,6 @@ func execCmd(cfg *config, args []string) error {
 		return fmt.Errorf("missing arguments")
 	}
 
-	if !staticBuild {
-		return errors.New("binary is not statically linked (did you build with CGO_ENABLED=0?)")
-	}
-
 	bf, err := findBootFiles(cfg.Kernel, runtime.GOARCH)
 	if err != nil {
 		return err
