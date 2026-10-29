@@ -12,7 +12,7 @@ import (
 
 	"github.com/BurntSushi/toml"
 
-	"lmb.io/vimto/internal/guest"
+	"github.com/ti-mo/vimto/internal/guest"
 )
 
 type config struct {

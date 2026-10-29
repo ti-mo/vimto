@@ -18,9 +18,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ti-mo/vimto/internal/guest"
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/sys/unix"
-	"lmb.io/vimto/internal/guest"
 )
 
 const envDisableKVM = "VIMTO_DISABLE_KVM"
